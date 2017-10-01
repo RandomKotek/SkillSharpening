@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "yoko";
+    src: url("../fonts/yoko.otf");
+}
+@font-face {
+    font-family: "poiret";
+    src: url("https://fonts.googleapis.com/css?family=Poiret+One");
+}
+
+#header {
+    font-family: "yoko";
+    font-size: 100px;
+    text-align: center;
+    background-image: url("../img/sakura.jpg");
+    color: #C02A49;
+    border-bottom: 2.5px solid #C02A49;
+}
+
+//#footer {
+    background-image: url("../img/sakurafooter2.png");
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    top: 560px;
+}

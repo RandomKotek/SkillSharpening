@@ -1,0 +1,33 @@
+form {
+    border: 1px solid #c02a49;
+    width: 30%;
+    margin: 5% auto 1%;
+    font-family: 'Poiret One';
+    font-size: 2em;
+    border-radius: 2%;
+    text-align: center;
+    background-color: #F65DA5;
+    background-image: url(../img/cherry.jpg)
+}
+
+input[type="submit"] {
+    margin-top: 18px;
+    font-size: 1.03em;
+    margin-bottom: 10px;
+    font-family: 'Poiret One', cursive;
+    border: none;
+    color: #FF69B4;
+    background-color: #C02A49;
+    padding: 8px 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 6px 10px;
+    font-size: .55em;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}

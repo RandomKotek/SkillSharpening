@@ -1,0 +1,10 @@
+.icons {
+    fill: #C02A49;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0;
+}
+
+.icons:hover {
+    fill: #e84361;
+}
