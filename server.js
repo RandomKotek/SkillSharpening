@@ -17,7 +17,12 @@ server.get('/', function(req, res){
     });
 });
 
-
+server.post('/thank-you', function(req, res){
+    console.log(req.body.name)
+    res.render('thanks', {
+        title: "Thanks!"
+    });
+});
 
 
 server.listen(server.get('port'), function(){

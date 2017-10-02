@@ -31,3 +31,7 @@ input[type="text"] {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
 }
+
+input[type="color"] {
+    
+}

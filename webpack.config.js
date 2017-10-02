@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        home: './client/Home.js'
+        home: './client/Home.js',
+        thankyou: './client/thank-you.js'
     },
     output: {
         filename: '[name].bundle.js',

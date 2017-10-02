@@ -8,11 +8,11 @@ class Form extends Component {
 
     render(){
         return(
-            <form>
+            <form action="/thank-you" method="POST">
                 Name:
-                <input type="text" name="name"/><br/>
+                <input type="text" name="name" maxlength="10"/><br/>
                 Favorite Colour:
-                <input type="text" name="favcolour"/><br/>
+                <input type="color" name="favcolour"/><br/>
                 Select your favorite tree: <br/>
                 Spruce <input type="radio" name="trees" value="Spruce"/><br/>
                 Oak <input type="radio" name="trees" value="Oak"/><br/>
