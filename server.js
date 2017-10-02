@@ -1,6 +1,8 @@
 const path = require ('path');
 const express = require ('express');
 const server = express();
+const bodyParser = require('body-parser');
+const urlbodyParser = (bodyParser.urlencoded({ extended: false }))
 
 server.set('port', process.env.PORT || 3000);
 
@@ -17,7 +19,7 @@ server.get('/', function(req, res){
     });
 });
 
-server.post('/thank-you', function(req, res){
+server.post('/thank-you', urlbodyParser, function(req, res){
     console.log(req.body.name)
     res.render('thanks', {
         title: "Thanks!"

@@ -10,7 +10,7 @@ class Form extends Component {
         return(
             <form action="/thank-you" method="POST">
                 Name:
-                <input type="text" name="name" maxlength="10"/><br/>
+                <input type="text" name="name" maxLength="15"/><br/>
                 Favorite Colour:
                 <input type="color" name="favcolour"/><br/>
                 Select your favorite tree: <br/>

@@ -22960,7 +22960,7 @@ var Form = function (_Component) {
                 'form',
                 { action: '/thank-you', method: 'POST' },
                 'Name:',
-                _react2.default.createElement('input', { type: 'text', name: 'name', maxlength: '10' }),
+                _react2.default.createElement('input', { type: 'text', name: 'name', maxLength: '15' }),
                 _react2.default.createElement('br', null),
                 'Favorite Colour:',
                 _react2.default.createElement('input', { type: 'color', name: 'favcolour' }),
